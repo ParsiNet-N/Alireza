@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>پروژه خفن نیکان</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(-45deg, #ff0057, #6e00ff, #00c3ff, #00ff9d);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      direction: rtl;
+      overflow: hidden;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .main-text {
+      font-size: 2.2rem;
+      max-width: 90%;
+      font-weight: 700;
+      text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .typewriter-text {
+      display: inline-block;
+      overflow: hidden;
+      border-right: .15em solid #fff;
+      white-space: nowrap;
+      animation: typing 5s steps(40, end), blink .75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-text">
+    <span class="typewriter-text">
+      اینجا قراره یکی از خفن‌ترین پروژه‌های تاریخ گیت‌هاب رو ببینی! آماده‌ای؟ :sunglasses::rocket:
+    </span>
+  </div>
+</body>
+</html>
